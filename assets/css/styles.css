@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  line-height: 1.7;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
   font-size: 16px;
   text-align: center;
   color: white;
+  line-height: 1.7;
 }
 
 .headerContent {
@@ -20,7 +20,6 @@ body {
   height: 100vh;
   min-height: 350px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -33,16 +32,12 @@ body {
 .content h1 {
   font-size: 2em;
   margin-top: 16px;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 300px;
 }
 
 .content p {
   margin-top: 16px;
   max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .headerLogo {
@@ -60,7 +55,9 @@ body {
 
 .card {
   width: 305px;
-  padding: 64px 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card i {
@@ -108,7 +105,6 @@ body {
 .contentSection2 p {
   margin: 18px 0;
 }
-
 
 .footerContent {
   background: rgba(0, 0, 0, 0.9);
